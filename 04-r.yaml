@@ -20,6 +20,6 @@ rules:
 - apiGroups: [""]
   resources: ["persistentvolumes"]
   verbs: ["get", "watch", "list"]
-- apiGroups: ["storage.k8s.io/v1"]
+- apiGroups: ["storage.k8s.io"]
   resources: ["storageclasses"]
   verbs: ["get", "watch", "list"]
