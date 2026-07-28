@@ -4,7 +4,7 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: roboshop-access-entries
+  name: roboshop # this is cluster name 
   region: us-east-1
   
 
